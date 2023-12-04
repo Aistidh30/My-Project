@@ -1,0 +1,41 @@
+html { background: rgba(0,212,255,1) 100%; 
+font-family: sans-serif; 
+background-color: rgb(240, 229, 215); padding: 1.5rem; }
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #7952B3; border-radius: 50px;}
+li { float: left; border-right:1px solid #bbb; }
+li:last-child { border-right: none; }
+li a { display: block; color: rgb(255, 255, 255); text-align: center; padding: 14px 16px; text-decoration: none;} 
+li a:hover:not(.active) { background-color: #377dff;}
+.active { background-color: #377dff;}
+.navigationbar{ margin-bottom: 50px;}
+body { max-width: 960px; margin: 0 auto; background-color: transparent; }
+h1 { font-family: sans-serif; color: #377dff; margin: 1rem 0;}
+a {color: #377dff;}
+hr { border: none; border-top: 3px solid rgb(211, 119, 119); }
+nav { border: 2px, solid, white; border-radius: 50px; padding: 10px; background: whitesmoke; 
+display: flex; align-items: center; padding: 0 0.5rem; margin-bottom: 50px;}
+nav h1 { flex: auto; margin: 0; }
+nav h1 a { text-decoration: none; padding: 0.25rem 0.5rem; }
+nav ul  { display: flex; list-style: none; margin: 0; padding: 0; }
+nav ul li a, nav ul li span, header .action { display: block; padding: 0.5rem; }
+.content { padding: 0 1rem 1rem; }
+.content > header { border-bottom: 1px solid rgb(236, 15, 15); display: flex; align-items: flex-end; }
+.content > header h1 { flex: auto; margin: 1rem 0 0.25rem 0; }
+.flash { margin: 1em 0; padding: 1em; background: #cae6f6; border: 1px solid #377ba8; }
+.post > header { display: flex; align-items: flex-end; font-size: 0.85em; }
+.post > header > div:first-of-type { flex: auto; }
+.post > header h1 { font-size: 1.5em; margin-bottom: 0;}
+.post .about { color: slategray; font-style: italic; }
+.post .body { white-space: pre-line; }
+.content:last-child { margin-bottom: 0; }
+.content form { margin: 1em 0; display: flex; flex-direction: column;}
+.content label { font-weight: bold; margin-bottom: 0.5em; color: rgb(247, 4, 4); font-size: 1em; font-weight: 100; }
+.content input, .content textarea { margin-bottom: 2em; border:  none; padding: 10px; border-radius: 50px;} 
+.content textarea { min-height: 12em; resize: vertical;}
+input.danger { color: #cc2f2e;}
+
+input[type=submit] { align-self: center; min-width: 10em; padding: 10px 20px; background-color: #7952B3;  
+color: white; font-weight: bold; border: 2px, white, solid; border-radius: 5px; } 
+.contact{color: #377dff; list-style: none;}
+span{ font-weight: bold;}
+
